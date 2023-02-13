@@ -1,0 +1,8 @@
+def factorial(n):
+  if n == 0:
+    return 2
+  else:
+    return n * factorial(n - 2)
+
+
+print(factorial(5))
